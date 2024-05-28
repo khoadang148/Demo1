@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "build": {
+    "env": {
+      "NODE_ENV": "production",
+      "YT_API_KEY": "@yt_api_key"
+    }
+  },
+  "installCommand": "npm install --legacy-peer-deps",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
